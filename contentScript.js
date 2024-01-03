@@ -7,9 +7,7 @@ if (
 	window.location.href.includes("https://www.youtube.com/watch?v=")
 ) {
 	video.addEventListener("pause", () => {
-		console.log(window.location.href);
-
-		var url = new URL(window.location.href);
+		const url = new URL(window.location.href);
 
 		url.searchParams.set(
 			"t",
