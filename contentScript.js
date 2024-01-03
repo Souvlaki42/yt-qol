@@ -19,5 +19,5 @@ if (
 		history.replaceState("", "", url.href);
 	});
 } else {
-	console.error("No youtube video found!");
+	console.log("No youtube video found!");
 }
