@@ -3,17 +3,21 @@ const video = document.querySelector(
 );
 
 if (
-	!video ||
-	!window.location.href.includes("https://www.youtube.com/watch?v=")
-)
-	throw new Error("No youtube video found!");
+	video != null &&
+	window.location.href.includes("https://www.youtube.com/watch?v=")
+) {
+	video.addEventListener("pause", () => {
+		console.log(window.location.href);
 
-video.addEventListener("pause", () => {
-	console.log(window.location.href);
+		var url = new URL(window.location.href);
 
-	var url = new URL(window.location.href);
+		url.searchParams.set(
+			"t",
+			parseInt(video.currentTime.toString()).toString()
+		);
 
-	url.searchParams.set("t", parseInt(video.currentTime.toString()).toString());
-
-	history.replaceState("", "", url.href);
-});
+		history.replaceState("", "", url.href);
+	});
+} else {
+	console.error("No youtube video found!");
+}
