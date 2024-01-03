@@ -1,6 +1,7 @@
 {
 	"manifest_version": 3,
 	"name": "YT timestamp saver",
+	"description": "Automatically save the current video timestamp as the t query param when pausing a youtube video.",
 	"version": "1.0",
 	"permissions": ["activeTab"],
 	"content_scripts": [
