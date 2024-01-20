@@ -1,0 +1,16 @@
+{
+	"name": "yt-timestamp-saver",
+	"version": "1.0.1",
+	"description": "save timestamps in the url for youtube videos",
+	"main": "index.js",
+	"scripts": {
+		"build": "tsc"
+	},
+	"keywords": [],
+	"author": "Souvlaki42",
+	"license": "ISC",
+	"devDependencies": {
+		"typescript": "^5.3.3"
+	}
+}
+
