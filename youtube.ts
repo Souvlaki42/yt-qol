@@ -1,14 +1,12 @@
 const handleTimestampSave = (player: HTMLVideoElement) => {
-	const execute = () => {
+	player.addEventListener("pause", () => {
 		const url = new URL(window.location.href);
 		const rawTimestamp = player.currentTime;
 		const integerTimestamp = Math.floor(rawTimestamp);
 		const parsedTimestamp = integerTimestamp.toString();
 		url.searchParams.set("t", parsedTimestamp);
 		history.replaceState("", "", url.href);
-	};
-	player.addEventListener("pause", execute);
-	window.addEventListener("blur", execute);
+	});
 };
 try {
 	const videoPlayerQuery = "#movie_player > div.html5-video-container > video";
