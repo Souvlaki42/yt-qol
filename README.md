@@ -7,4 +7,4 @@ It does that when you pause or lose tab focus.
 It's currently tested only on Chromium-based browser like Google Chrome, Microsoft Edge or Brave.
 It should work for Firebox as well but I didn't test it.
 
-Download from the releases tab [here](https://github.com/Souvlaki42/yt-timestamp-saver/releases)
+Download from the releases tab [here](https://github.com/Souvlaki42/yt-timestamp-saver/releases).
