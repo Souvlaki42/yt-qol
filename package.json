@@ -1,13 +1,16 @@
 {
 	"name": "yt-timestamp-saver",
-	"version": "1.2",
-	"description": "save timestamps in the url for youtube videos",
-	"main": "index.js",
+	"version": "1.3",
+	"description": "Save timestamps in the url for youtube videos.",
+	"main": "",
 	"scripts": {
 		"build": "tsc",
 		"release": "bash release.sh"
 	},
-	"keywords": [],
+	"keywords": [
+		"youtube",
+		"timestamps"
+	],
 	"author": "Souvlaki42",
 	"license": "ISC",
 	"devDependencies": {
