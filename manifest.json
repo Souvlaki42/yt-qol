@@ -7,7 +7,7 @@
 	"content_scripts": [
 		{
 			"matches": ["*://*.youtube.com/watch?v=*"],
-			"js": ["dist/youtube.js"]
+			"js": ["./youtube.js"]
 		}
 	],
 	"icons": {
