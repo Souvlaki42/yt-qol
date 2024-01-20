@@ -4,7 +4,8 @@
 	"description": "save timestamps in the url for youtube videos",
 	"main": "index.js",
 	"scripts": {
-		"build": "tsc"
+		"build": "tsc",
+		"release": "bash release.sh"
 	},
 	"keywords": [],
 	"author": "Souvlaki42",
