@@ -1,4 +1,4 @@
-# YouTube Timestamp Saver v1.3
+# YouTube Timestamp Saver v1.4
 
 Are you angry because your browser just refreshed the YouTube video you were watching, after switching tabs?<br>
 If the answer is yes, then you are in the right place.<br>

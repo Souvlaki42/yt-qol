@@ -2,7 +2,7 @@
 	"manifest_version": 3,
 	"name": "YT timestamp saver",
 	"description": "Automatically store the current video timestamp in the URL when pausing the playback.",
-	"version": "1.3",
+	"version": "1.4",
 	"permissions": ["activeTab"],
 	"content_scripts": [
 		{
