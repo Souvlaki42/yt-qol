@@ -14,9 +14,9 @@
 	"author": "Souvlaki42",
 	"license": "ISC",
 	"devDependencies": {
-		"@types/bun": "latest"
+		"@types/node": "^20.14.9"
 	},
 	"peerDependencies": {
-		"typescript": "^5.0.0"
+		"typescript": "^5.5.3"
 	}
 }
