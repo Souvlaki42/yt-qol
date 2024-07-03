@@ -1,0 +1,5 @@
+Changelog:
+A lot of automation
+Added '\' as a shortcut for clicking the "Skip Ad" button
+
+Extract the zip file and load it as an unpacked browser extension in any chromium browser. It works on Firefox as well.

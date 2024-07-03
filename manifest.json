@@ -1,8 +1,8 @@
 {
 	"manifest_version": 3,
-	"name": "YT timestamp saver",
-	"description": "Automatically store the current video timestamp in the URL when pausing the playback.",
-	"version": "1.4",
+	"name": "YT Quality Of Life",
+	"description": "Various QOL improvements for YouTube",
+	"version": "1.5",
 	"permissions": ["activeTab"],
 	"content_scripts": [
 		{
