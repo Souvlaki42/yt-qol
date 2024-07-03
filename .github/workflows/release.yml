@@ -43,9 +43,7 @@ jobs:
         run: npm run build
 
       - name: Create Release
-        id: create_release
         uses: softprops/action-gh-release@v2
-        if: startsWith(github.ref, 'refs/tags/')
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           name: Version ${{ env.version }}
